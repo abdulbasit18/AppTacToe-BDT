@@ -4,7 +4,7 @@
 This project is part of my implemetnation of Behavior-Driven Testing using ```Quick``` and ```Nimble```.
 For this purpose i am using TicTacToe app and writing BDT on its gameplay. 
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.png?style=centerme)
 
 ## Behavior-Driven Testing
 In behavior-driven testing (or BDT), your tests are based on user stories that describe some specific expected behavior of your application. Instead of testing implementation details, you’re actually testing what matters: does your app deliver your user stories correctly?
