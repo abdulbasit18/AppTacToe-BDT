@@ -1,7 +1,7 @@
 # AppTacToe-BDT
 
 ## Overview
-This project is part of my implemetnation of behaviour driven testing using ```Quick``` and ```Nimble```.
+This project is part of my implemetnation of Behavior-Driven Testing using ```Quick``` and ```Nimble```.
 For this purpose i am using TicTacToe app and writing BDT on its gameplay. 
 
 ![Screenshot](screenshot.png)
