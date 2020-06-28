@@ -2,11 +2,11 @@
 
 use_frameworks!
 
-target "AppTacToe" do
+target "AppTacToe-BDT" do
   inherit! :search_paths
 
   abstract_target 'Tests' do
-    target "AppTacToeTests"
+    target "AppTacToe-BDTTests"
     pod 'Quick'
     pod 'Nimble'
   end

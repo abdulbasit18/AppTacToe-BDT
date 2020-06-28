@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CD8B32A538A7288963B3B5E /* Pods_AppTacToe_Tests_AppTacToeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EE939C60FF509E1F36C69C /* Pods_AppTacToe_Tests_AppTacToeTests.framework */; };
-		656EEB02D7E1BA738C30770F /* Pods_AppTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD91E628C179168125BE586 /* Pods_AppTacToe.framework */; };
+		1ACD16537AF95DF6FB738817 /* Pods_AppTacToe_BDT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3166069C3115280B10077F /* Pods_AppTacToe_BDT.framework */; };
+		4E3DCC44B622A256A0A80E2D /* Pods_AppTacToe_BDT_Tests_AppTacToe_BDTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E16534FCD44648D840BC6D /* Pods_AppTacToe_BDT_Tests_AppTacToe_BDTTests.framework */; };
 		6EE2E52424A67DC9009BBE87 /* Board+Nimble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE2E52324A67DC9009BBE87 /* Board+Nimble.swift */; };
 		7823279D200FA99900C5B6BD /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7823279E200FA99900C5B6BD /* Quick.framework */; };
 		7823279F200FA99D00C5B6BD /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782327A0200FA99D00C5B6BD /* Nimble.framework */; };
@@ -37,7 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2DD91E628C179168125BE586 /* Pods_AppTacToe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTacToe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07892B2FA1DBEB68CFE0E95E /* Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests/Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests.release.xcconfig"; sourceTree = "<group>"; };
+		0CD9EEABAED6B5B1C3F5C1C9 /* Pods-AppTacToe-BDT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTacToe-BDT.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppTacToe-BDT/Pods-AppTacToe-BDT.release.xcconfig"; sourceTree = "<group>"; };
+		12850789FDBFE9FA3F7427FA /* Pods-AppTacToe-BDT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTacToe-BDT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppTacToe-BDT/Pods-AppTacToe-BDT.debug.xcconfig"; sourceTree = "<group>"; };
+		3F3166069C3115280B10077F /* Pods_AppTacToe_BDT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTacToe_BDT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F9E8036F01F94B5AE19E2D /* Pods-AppTacToe-Tests-AppTacToeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTacToe-Tests-AppTacToeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppTacToe-Tests-AppTacToeTests/Pods-AppTacToe-Tests-AppTacToeTests.release.xcconfig"; sourceTree = "<group>"; };
 		6EE2E52324A67DC9009BBE87 /* Board+Nimble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Board+Nimble.swift"; sourceTree = "<group>"; };
 		7823279E200FA99900C5B6BD /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +61,8 @@
 		78EE4CA51FF2BA4A0028142D /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		78EE4CA91FF2BA8B0028142D /* Mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
 		78EE4CAB1FF2E4540028142D /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		D2EE939C60FF509E1F36C69C /* Pods_AppTacToe_Tests_AppTacToeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTacToe_Tests_AppTacToeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E16534FCD44648D840BC6D /* Pods_AppTacToe_BDT_Tests_AppTacToe_BDTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTacToe_BDT_Tests_AppTacToe_BDTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEEDAE26F57A9D36F551BAE /* Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests/Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D83F222D2AE92D1DFA30202B /* Pods-AppTacToe-Tests-AppTacToeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTacToe-Tests-AppTacToeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppTacToe-Tests-AppTacToeTests/Pods-AppTacToe-Tests-AppTacToeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB78FEED69D5D930ED5D873A /* Pods-AppTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTacToe.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppTacToe/Pods-AppTacToe.release.xcconfig"; sourceTree = "<group>"; };
 		FC28F142A3FA4E7876C412F0 /* Pods-AppTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTacToe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppTacToe/Pods-AppTacToe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				656EEB02D7E1BA738C30770F /* Pods_AppTacToe.framework in Frameworks */,
+				1ACD16537AF95DF6FB738817 /* Pods_AppTacToe_BDT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +83,7 @@
 			files = (
 				7823279F200FA99D00C5B6BD /* Nimble.framework in Frameworks */,
 				7823279D200FA99900C5B6BD /* Quick.framework in Frameworks */,
-				0CD8B32A538A7288963B3B5E /* Pods_AppTacToe_Tests_AppTacToeTests.framework in Frameworks */,
+				4E3DCC44B622A256A0A80E2D /* Pods_AppTacToe_BDT_Tests_AppTacToe_BDTTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,8 +95,8 @@
 			children = (
 				782327A0200FA99D00C5B6BD /* Nimble.framework */,
 				7823279E200FA99900C5B6BD /* Quick.framework */,
-				2DD91E628C179168125BE586 /* Pods_AppTacToe.framework */,
-				D2EE939C60FF509E1F36C69C /* Pods_AppTacToe_Tests_AppTacToeTests.framework */,
+				3F3166069C3115280B10077F /* Pods_AppTacToe_BDT.framework */,
+				93E16534FCD44648D840BC6D /* Pods_AppTacToe_BDT_Tests_AppTacToe_BDTTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -201,6 +205,10 @@
 				DB78FEED69D5D930ED5D873A /* Pods-AppTacToe.release.xcconfig */,
 				D83F222D2AE92D1DFA30202B /* Pods-AppTacToe-Tests-AppTacToeTests.debug.xcconfig */,
 				46F9E8036F01F94B5AE19E2D /* Pods-AppTacToe-Tests-AppTacToeTests.release.xcconfig */,
+				12850789FDBFE9FA3F7427FA /* Pods-AppTacToe-BDT.debug.xcconfig */,
+				0CD9EEABAED6B5B1C3F5C1C9 /* Pods-AppTacToe-BDT.release.xcconfig */,
+				9EEEDAE26F57A9D36F551BAE /* Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests.debug.xcconfig */,
+				07892B2FA1DBEB68CFE0E95E /* Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -315,7 +323,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppTacToe-Tests-AppTacToeTests/Pods-AppTacToe-Tests-AppTacToeTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests/Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
@@ -326,7 +334,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppTacToe-Tests-AppTacToeTests/Pods-AppTacToe-Tests-AppTacToeTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests/Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7D1049540C778FD6EAFB0983 /* [CP] Check Pods Manifest.lock */ = {
@@ -340,7 +348,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AppTacToe-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AppTacToe-BDT-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -358,7 +366,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AppTacToe-Tests-AppTacToeTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -534,7 +542,7 @@
 		};
 		78EE4C9D1FF2B9C20028142D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC28F142A3FA4E7876C412F0 /* Pods-AppTacToe.debug.xcconfig */;
+			baseConfigurationReference = 12850789FDBFE9FA3F7427FA /* Pods-AppTacToe-BDT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,7 +557,7 @@
 		};
 		78EE4C9E1FF2B9C20028142D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB78FEED69D5D930ED5D873A /* Pods-AppTacToe.release.xcconfig */;
+			baseConfigurationReference = 0CD9EEABAED6B5B1C3F5C1C9 /* Pods-AppTacToe-BDT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,7 +572,7 @@
 		};
 		78EE4CA01FF2B9C20028142D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D83F222D2AE92D1DFA30202B /* Pods-AppTacToe-Tests-AppTacToeTests.debug.xcconfig */;
+			baseConfigurationReference = 9EEEDAE26F57A9D36F551BAE /* Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -582,7 +590,7 @@
 		};
 		78EE4CA11FF2B9C20028142D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46F9E8036F01F94B5AE19E2D /* Pods-AppTacToe-Tests-AppTacToeTests.release.xcconfig */;
+			baseConfigurationReference = 07892B2FA1DBEB68CFE0E95E /* Pods-AppTacToe-BDT-Tests-AppTacToe-BDTTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
